@@ -52,7 +52,9 @@ L’application web sera composée de 4 pages :
 
 ### Planification de tests: ###
 Tests d’acceptation pour l’ensemble des fonctionnalités listées
-dans ce document (spécifications fonctionnelles et techniques Kanap).
+dans ce document
+
+(spécifications fonctionnelles et techniques Kanap).
 
 Plan de test visible dans le dossier P5_TINARD_PIERRE
 
