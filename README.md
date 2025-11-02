@@ -1,4 +1,4 @@
-# Kanap #
+# P5_Kanap #
 
 ## Contexte: ##
 Construire un site e-commerce en JavaScript pour Kanap, une marque de canapés qui vend ses produits depuis sa boutique exclusivement.
@@ -12,13 +12,10 @@ Implémentation du site de Kanap de manière dynamique:
 
 - Mettre en place un plan de test d’acceptation.
 
-- 4 pages ont été mises en place : page d’accueil, page Produit, page Panier
-  et la page Confirmation.
-
 - Sur l’ensemble des pages, toutes les parties statiques sont en place, elles sont donc prêtes
   à recevoir le contenu dynamique.
 
-- Intégrer ces éléments dynamiquement grâce à JS et l’API.
+- Intégrer ces éléments dynamiquement grâce à JavaScript et l’API.
 
 - Utiliser les “id” dans différentes balises, pour intégrer les éléments dynamiques.
 
@@ -27,7 +24,7 @@ Implémentation du site de Kanap de manière dynamique:
 ### Architecture générale: ###
 L’application web sera composée de 4 pages :
 
-- Une page d’"accueil" montrant (de manière dynamique) tous les articles disponibles
+- Une page d’"Accueil" montrant (de manière dynamique) tous les articles disponibles
   à la vente.
 
 - Une page “produit” qui affiche (de manière dynamique) les détails du produit
@@ -135,8 +132,8 @@ Chaque API contient 3 paramètres :
   => Retourne l'objet contact, le tableau produits et orderId (string)
 
 #### Validation des données: ####
-- Pour les routes POST, l’objet contact envoyé au serveur doit contenir les champs firstName,
-lastName, address, city et email.
+- Pour les routes POST, l’objet contact envoyé au serveur doit contenir les champs
+  firstName, lastName, address, city et email.
 
 - Le tableau des produits envoyé au back-end doit être un array de strings product-ID.
 
